@@ -16,10 +16,10 @@ cpi_mpi.o: cpi_mpi.c gettime.h
 	cc -O3 -ffast-math -mavx2 -c -o cpi_mpi.o cpi_mpi.c
 
 sum: sum.o gettime.o
-	cc -O2 -ffast-math -mavx2 -o sum sum.o gettime.o
+	cc -O3 -ffast-math -mavx2 -o sum sum.o gettime.o
 
 sum.o: sum.c gettime.h
-	cc -O2 -ffast-math -mavx2 -c -o sum.o sum.c
+	cc -O3 -ffast-math -mavx2 -c -o sum.o sum.c
 
 sum_omp: sum_omp.o gettime.o
 	cc -O2 -ffast-math -mavx2 -fopenmp -o sum_omp sum_omp.o gettime.o

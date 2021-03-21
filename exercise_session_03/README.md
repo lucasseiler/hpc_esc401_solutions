@@ -27,4 +27,4 @@ Issue: It was not possible for me to open the file `speedup.eps` on daint, but I
 
 ### Exercise 3
 
-Maybe superlinear speedup is caused by efficient memory usage? E.g. due to several processes, not that much information needs to be stored at once, so slower memory like storing data on the harddrive can be avoided.
+Maybe superlinear speedup is caused by efficient memory usage? E.g. due to several processes, not that much information needs to be stored at once, so slower memory usage (like saving data on the harddrive) can be avoided.

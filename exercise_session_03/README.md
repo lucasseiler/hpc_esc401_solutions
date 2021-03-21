@@ -17,7 +17,7 @@ Serial | 2.583 seconds
 MPI MPI_Wtime() | 4.018 seconds
 MPI getTime() | 4.02 seconds
 
-I suspect the difference in MPI times is because MPI_Wtime() only measures the execution time of the for-loop, while getTime() measures the execution time of the entire MPI process.
+I suspect the difference in MPI times is because MPI_Wtime() only measures the execution time of the for-loop, while getTime() measures the execution time of the entire MPI process. The difference between the serial and the MPI version might be due to the fact that the MPI workflow has some overhead, which just takes some time.
 
 ### Exercise 2
 

@@ -1,0 +1,29 @@
+PI = 0 computed in 0.000365 seconds
+PI = 0 computed in 0.0003059 seconds
+PI = 0 computed in 0.000859 seconds
+PI = 0 computed in 0.0003028 seconds
+PI = 0 computed in 0.0003622 seconds
+PI = 0 computed in 0.0003278 seconds
+PI = 0 computed in 0.0002909 seconds
+PI = 0 computed in 0.0002918 seconds
+PI = 0 computed in 0.001868 seconds
+PI = 0 computed in 0.000283 seconds
+PI = 3.18128626043587e+162 computed in 0.000237 seconds
+PI = 3.14159265358979 computed in 0.08584 seconds
+
+
+Batch Job Summary Report (version 21.01.1) for Job "cpi_cuda_get_time" (31326196) on daint
+
+Job information (1/2)
+-----------------------------------------------------------------------------------------------------
+             Submit            Eligible               Start                 End    Elapsed Time limit
+------------------- ------------------- ------------------- ------------------- ---------- ----------
+2021-05-18T22:05:56 2021-05-18T22:05:56 2021-05-18T22:08:07 2021-05-18T22:08:26   00:00:19   00:05:00
+-----------------------------------------------------------------------------------------------------
+
+Job information (2/2)
+-------------------------------------------------------------
+    Username      Account    Partition   NNodes        Energy
+------------ ------------ ------------ -------- -------------
+     lseiler         uzg2       normal        1      0.287 kJ
+
